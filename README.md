@@ -42,4 +42,21 @@ A simple Airbnb clone project
   Lets guests leave feedback on properties they stayed in. Reviews help future guests make informed decisions and improve trust on the platform.
 
 - **Payment Integration**
-  Processes payments securely for property bookings. This ensures smooth transactions between guests and hosts.  
+  Processes payments securely for property bookings. This ensures smooth transactions between guests and hosts.
+
+  ## API Security
+
+- **Authentication**
+  Ensures that only registered users can access the system by requiring secure login (e.g., with JWT or OAuth). This protects user accounts and prevents unauthorized access.
+
+- **Authorization**
+  Controls what actions each user can perform. For example, only hosts can add or manage properties, while guests can book properties. This prevents users from accessing features they should not.
+
+- **Rate Limiting**
+  Restricts the number of API requests a user or client can make in a given timeframe. This protects the system from abuse, spam, or denial-of-service (DoS) attacks.
+
+- **Data Encryption**
+  All sensitive data (such as passwords and payment details) is encrypted during storage and transmission. This ensures that user information remains private and secure.
+
+- **Input Validation**
+  All inputs from users are validated to prevent SQL injection, cross-site scripting (XSS), and other common vulnerabilities. This helps maintain the integrity of the system.
