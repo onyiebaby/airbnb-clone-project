@@ -60,3 +60,9 @@ A simple Airbnb clone project
 
 - **Input Validation**
   All inputs from users are validated to prevent SQL injection, cross-site scripting (XSS), and other common vulnerabilities. This helps maintain the integrity of the system.
+
+## CI/CD Pipeline
+
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines automate the process of testing, building, and deploying the project. CI ensures that new code changes are automatically tested and integrated smoothly, while CD automates deployment so updates reach users quickly and reliably.
+
+For this project, tools such as **GitHub Actions** (for automated testing and workflows), **Docker** (for containerization and consistent environments), and **Heroku/AWS** (for deployment) can be used. Implementing CI/CD improves code quality, reduces bugs, and ensures faster, more reliable releases.
