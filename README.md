@@ -11,3 +11,18 @@ A simple Airbnb clone project
 - **PostgreSQL**: Relational database to store users, property listings, reservations, and reviews securely.
 - **GraphQL**: API query language that allows flexible and efficient data fetching for the frontend
 - **Dockers**: Containerization tool for consistent development and deployment environment.
+
+  ## Database Design
+
+- **Users**: id, name, email, password, role
+- **Properties**: id, title, location, price, owner_id
+- **Bookings**: id, user_id, property_id, check_in, check_out
+- **Reviews**: id, user_id, property_id, rating, comment
+- **Payments**: id, booking_id, amount, status, date
+
+**Relationships**:
+- A user can own multiple properties.
+- A user can make multiple bookings.
+- A booking belongs to one property and one user.
+- A property can have many reviews.
+- A payment is linked to a single booking.
