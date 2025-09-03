@@ -26,3 +26,20 @@ A simple Airbnb clone project
 - A booking belongs to one property and one user.
 - A property can have many reviews.
 - A payment is linked to a single booking.
+
+## Feature Breakdown
+
+- **User Management**
+  Handles user registration, login, and authentication. Users can sign up as guests to book properties or as hosts to list their own properties.
+
+- **Property Management**
+  Allows hosts to add, edit, and manage property listings. Each property includes details such as title, location, price, and availability.
+
+- **Booking System**
+  Enables guests to book available properties for specific dates. The system ensures that properties cannot be double-booked.
+
+- **Reviews & Ratings**
+  Lets guests leave feedback on properties they stayed in. Reviews help future guests make informed decisions and improve trust on the platform.
+
+- **Payment Integration**
+  Processes payments securely for property bookings. This ensures smooth transactions between guests and hosts.  
